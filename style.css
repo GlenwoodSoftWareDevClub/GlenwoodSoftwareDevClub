@@ -1,0 +1,121 @@
+:root {
+    --bg: #f0f0f0;
+    --text: #0f172a;
+    --btn-bg: #202020;
+    --btn-text: #ffffff;
+
+    --title-text: #ffffff;
+    --title-bg: #202020;
+
+    --header1-text: #ffffff;
+    --header1-bg: #202020;
+
+    --link-text: #ffffff;
+
+    --boxInfo1-text: #ffffff;
+    --boxInfo1-bg: #202020;
+
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    --bg: #0b0c10;
+    --text: #e5e7eb;
+
+    --btn-bg: #60a5fa;
+    --btn-text: #0b0c10;
+
+    --title-text: #0b0c10;
+    --title-bg: #60a5fa;
+
+    --header1-text: #0b0c10;
+    --header1-bg: #60a5fa;
+
+    --link-text: #0b0c10;
+
+    --boxInfo1-text: #0b0c10;
+    --boxInfo1-bg: #60a5fa;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    background: var(--btn-bg);
+    color: var(--btn-text);
+
+    transition: background 0.3s, color 0.3s;
+}
+
+#toggleTheme {
+    position: relative;
+    top: -5%;
+    left: 39%; 
+} 
+
+
+#pageTitle {
+    color: var(--title-text);
+    background: var(--title-bg);
+    padding: 0.5rem 1rem;   
+    display: inline-block;
+    border-radius: 8px;     
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    top: 0%;
+    left: 26.5%;
+    font-size: 35px;
+}
+
+.footer {
+  background: var(--header1-bg);
+  color: var(--header1-text);
+  text-align: center;
+  padding: 2.5rem 1rem;
+  transition: background .3s, color .3s;
+  position: relative;
+  top: 15vh; 
+}
+
+.footer-title,
+.footer-sub {
+  margin: .25rem 0;
+}
+
+#link {
+    color: var(--link-text);
+}
+
+.box-container {
+    transition:background .3s,color .3s;
+    display: flex;              /* puts children side by side */
+    justify-content: center;    /* centers them horizontally */
+    gap: 50px;                  /* space between the boxes */
+    margin-top: 2rem;           /* pushes the group down a bit */
+}
+
+.boxInfo {
+    color: var(--boxInfo1-text);
+    background-color: var(--boxInfo1-bg);
+    padding: 1.1rem;
+    width: 30%;               /* fixed width (or try 40%) */
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box1Title {
+  font-size: 30px;
+}
+
+.box1s {
+    font-size: 25px;
+}
