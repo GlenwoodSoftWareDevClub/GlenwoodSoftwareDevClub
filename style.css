@@ -83,7 +83,7 @@ button {
   padding: 2.5rem 1rem;
   transition: background .3s, color .3s;
   position: relative;
-  top: 15vh; 
+  top: 9vh; 
 }
 
 .footer-title,
@@ -125,3 +125,4 @@ button {
     font-weight: bold;
     text-decoration: underline;
 }
+
