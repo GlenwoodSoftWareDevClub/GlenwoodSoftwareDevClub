@@ -119,3 +119,9 @@ button {
 .box1s {
     font-size: 25px;
 }
+
+.box1b {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
