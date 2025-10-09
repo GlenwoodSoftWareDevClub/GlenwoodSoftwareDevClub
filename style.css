@@ -18,6 +18,13 @@
     --navbar-text: #ffffff;
     --navbar-bg: #202020;
 
+    --navbar-members-text:#ffffff;
+
+    --title2-text: #ffffff;
+    --title2-bg: #202020;
+
+    --mBox-text: #ffffff;
+    --mBox-bg: #202020;
 }
 
 body {
@@ -46,6 +53,15 @@ body.dark {
 
     --navbar-text: #0b0c10;
     --navbar-bg: #60a5fa;
+
+    --navbar-members-text:#0b0c10;
+
+    --title2-text: #0b0c10;
+    --title2-bg: #60a5fa;
+
+    --mBox-text: #0b0c10;
+    --mBox-bg: #60a5fa;
+
 }
 
 button {
@@ -139,9 +155,46 @@ button {
     position: relative;
     top: 50%;
     left: 0.45%;
+    border-radius: 8px;   
 }
 
 .in-nav {
     font-size: 15px;
+    font-weight: bold;
+    color: var(--navbar-members-text)
+}
+
+#pageTitle2 {
+    color: var(--title2-text);
+    background: var(--title2-bg);
+    padding: 0.5rem 1rem;   
+    display: inline-block;
+    border-radius: 8px;     
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    top: 0%;
+    left: 40%;
+    font-size: 35px;
+}
+
+#toggleTheme2 {
+    position: relative;
+    top: -5%;
+    left: 73.5%; 
+}
+
+.Mbox {
+    color: var(--mBox-text);
+    background: var(--mBox-bg);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    border-radius: 8px;
+}
+
+.mtext {
+    font-size: 25px;
     font-weight: bold;
 }
